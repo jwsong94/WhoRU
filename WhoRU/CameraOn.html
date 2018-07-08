@@ -1,0 +1,20 @@
+<html>
+	<head>Who R U?</head>
+	<body style="margin: 0px; background: #ffffff;">
+		<div>
+			<input type="button" value="Refresh" onclick="Refrsh();"/>
+			<input type="button" value="Log" onclick="Log();"/>
+		</div>
+		<div>
+			<img style="-webkit-user-select:none;" src="http://192.168.43.66:8081/">
+		</div>
+		<script type="text/javascript">
+			function Refresh() {
+				location.href = "/";
+			}
+			function Log() {
+				location.href = "/log";
+			}
+		</script>
+	</body>
+</html>
